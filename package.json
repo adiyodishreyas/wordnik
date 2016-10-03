@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/adiyodishreyas/wordnik/issues"
   },
-  "homepage": "https://github.com/adiyodishreyas/wordnik"
+  "homepage": "https://github.com/adiyodishreyas/wordnik",
+  "bin": {
+    "dict": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
