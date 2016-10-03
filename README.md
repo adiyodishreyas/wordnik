@@ -5,4 +5,4 @@ Run ``` npm install -g ``` <br/>
 Run ``` npm link ```
 
 ### Usage 
-```dict def <word>```
+Type ```dict --help``` to view all the commands
