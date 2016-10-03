@@ -11,7 +11,6 @@ program
     .option('ex', 'Word Examples')
     .option('dict', 'Word Full Dict')
     .option('play', 'Word Game')
-    .parse(process.argv)
     .action(function(word) {
 
         //maping the commands
@@ -38,6 +37,17 @@ program
         }
 
         console.log(word);
-
     });
-    program.parse(process.argv);
+
+program.on('--help', function() {
+    console.log('  Other Commands:')
+    console.log( '    dict', '          Word of the day' );
+});
+
+program.parse(process.argv);
+
+
+//word of the day command
+if( !program.args.length ) {
+    //console.log('Word of the day');
+}

@@ -1,6 +1,6 @@
-Command Line Dictionary Tool
+#Command Line Dictionary Tool
 
-### Setting up the command link
+### Setting up the command line
 Run ``` npm install -g ``` <br/>
 Run ``` npm link ```
 
