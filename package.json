@@ -1,5 +1,5 @@
 {
-  "name": "wordnik",
+  "name": "wordnik-cli",
   "version": "1.0.0",
   "description": "Command Line Dictionary Tool",
   "main": "index.js",
@@ -20,6 +20,10 @@
     "dict": "./index.js"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "request": "^2.75.0",
+    "require-dir": "^0.3.0",
+    "underscore": "^1.8.3",
+    "wordnik": "0.0.2"
   }
 }
